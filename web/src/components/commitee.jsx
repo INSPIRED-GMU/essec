@@ -31,13 +31,13 @@ export default function Committee(){
         "img":EH
       },
       {
-        "name":"Mohammedreza Noei",
+        "name":"Seyed Mohammadreza Noei",
         "affiliation":"George Mason University",
         "img":MN
       }
     ])
     return(
-        <div className="p-20 bg-base-200">
+        <div id="commitee" className="p-20 bg-base-200">
             <h1 className="font-bold text-3xl mb-10">Organizing Committee</h1>
             <div className="flex flex-wrap grid-cols-3 gap-20 justify-center pl-10 pr-10">
                 {organizing.map((organizer)=>(<div className="place-self-center text-center">
