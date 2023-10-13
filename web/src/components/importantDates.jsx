@@ -4,19 +4,19 @@ export default function ImportantDates(){
     const [dates, setdates] = useState([
         {
           "event_key": "Submission opens",
-          "event_value": "October 1, 2023"
+          "event_value": "October 15, 2023"
         },
         {
           "event_key": "Submission deadline",
-          "event_value": "November 1, 2023"
+          "event_value": "November 15, 2023"
         },
         {
           "event_key": "Decisions announced",
-          "event_value": "December 1, 2023"
+          "event_value": "December 5, 2023"
         },
         {
           "event_key": "Registration opens",
-          "event_value": "November 15, 2023"
+          "event_value": "October 15, 2023"
         },
         {
           "event_key": "Registration closes",
