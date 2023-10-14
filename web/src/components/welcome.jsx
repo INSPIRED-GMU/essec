@@ -7,7 +7,7 @@ export default function Welcome(){
         <div className="hero-overlay text-neutral-content py-20 ">
         <div className="hero">
         <div className=" px-40 text-center py-20">
-        <p className="text-5xl text-neutral-content">ESSEC 2024, William & Mary, Williamsburg, VA</p>
+        <p className="text-5xl text-neutral-content">Eastern Atlantic Students in Software Engineering Colloquium<br></br>William & Mary, Williamsburg, VA</p>
         <p className="text-lg text-neutral-content">January 12, 2024</p>
         </div>
         </div>
