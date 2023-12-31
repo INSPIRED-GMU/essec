@@ -20,11 +20,11 @@ export default function ImportantDates(){
         },
         {
           "event_key": "Registration closes",
-          "event_value": "December 31, 2023"
+          "event_value": "January 12, 2023"
         },
         {
           "event_key": "Colloquium",
-          "event_value": "January 12, 2024"
+          "event_value": "January 20, 2024"
         }
       ]
       
@@ -36,7 +36,7 @@ export default function ImportantDates(){
     {/* head */}
     <tbody>
       {/* row 1 */}
-      {dates.map((date)=><tr  className={date.event_key=="Submission opens"?"font-bold":""}>
+      {dates.map((date)=><tr  className={date.event_key=="Registration opens"?"font-bold":""}>
         <td>{date.event_key}</td>
         <td>{date.event_value}</td>
       </tr>
