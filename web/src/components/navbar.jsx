@@ -9,8 +9,8 @@ export default function NavBar(){
     <ul className="menu menu-horizontal px-1">
       <li><a href="#paperCall">Call for Papers</a></li>
       <li><a href="#program">Program</a></li>
+      <li><a href="#travel">Travel</a></li>
       <li><a href="#commitee">Commitee</a></li>
-      <li><a href="#travel">Logistics</a></li>
       <li className="button btn-primary rounded-md"><a href="https://docs.google.com/forms/d/1T1B21qkLhbMH5rcID3bYD91RZwQ-Y5VGFw0IZtt5-so/" target="_blank">Register</a></li>
     </ul>
   </div>

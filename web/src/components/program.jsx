@@ -16,7 +16,7 @@ export default function Program () {
                 "time": "9:00",
                 "speaker": "Brittany Johnson",
                 "affiliation": "George Mason University",
-                "topic": "The Journal Ahead and Planning for Market Changes/Instability: Where Will We Find/Make Tomorrow's Opportunities? How Do We Prepare When We Don't Know What They Are Yet?",
+                "topic": "Preparing for a Career in SE Research: Planning Under Uncertainty",
                 "tag":"Keynote",
                 "style":"bold"
         },
@@ -34,9 +34,9 @@ export default function Program () {
             },
             {
                 "time": "10:20",
-                "speaker": "WMA",
+                "speaker": "Trevor Stalnaker",
                 "affiliation": "William & Mary",
-                "topic": "TBD",
+                "topic": "Software Bills of Material as a Solution in the Software Supply Chain",
                 "tag":"Talk",
             },
             {
@@ -98,14 +98,14 @@ export default function Program () {
                 "speaker": "MD Mahmudul Hasan Pious",
                 "affiliation": "George Mason University",
                 "topic": "Prioritizing Test Orders for Efficient Order-Dependent Flaky Test Detection",
-            "tag":"Talk",
+                "tag":"Talk",
           },
           {
-            "time": "12:20",
-            "speaker": "WMA",
-            "affiliation": "William & Mary",
-            "topic": "TBD",
-            "tag":"Talk",
+                "time": "12:20",
+                "speaker": "David Nader",
+                "affiliation": "William & Mary",
+                "topic": "Toward a Theory of Causation for Interpreting Foundation Models for Code Generation",
+                "tag":"Talk",
           },
           {
             "time": "12:30",
@@ -138,6 +138,7 @@ export default function Program () {
     return (
         <div id="program" className="p-20 bg-blue-100">
             <h1 className="text-3xl font-bold">Program</h1>
+            <p className='mt-5'>All sessions will be held at <span className='font-bold link'><a href="https://maps.app.goo.gl/iebYVjm99WN9wnQ88" target='blank'>McGlothlin-Street Hall 020</a></span></p>
             <div className='rounded-lg'>
             <table className="table-lg mt-10 mb-10 table border-collapse bg-blue-100">
                 <thead className='bg-blue-300'>

@@ -15,8 +15,8 @@ function App() {
       <Welcome/>
       <PaperCalls/>
       <Program/>
-      <Committee/>
       <Travel/>
+      <Committee/>
     </>
   )
 }

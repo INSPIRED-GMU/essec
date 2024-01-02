@@ -1,3 +1,6 @@
+import Iframe from 'react-iframe'
+import React from 'react'
+
 export default function Travel(){
     const hotels = {"hotels": [
         {
@@ -68,7 +71,19 @@ export default function Travel(){
     }
     return(
         <div id="travel" className="p-20">
-        <h1 className="text-3xl font-bold mb-5">Travel and Logistics</h1>
+        <h1 className="text-3xl font-bold mb-5">Travel</h1>
+
+        <h2 className="text-xl font-bold mt-5">Venue</h2>
+        <p className="mb-5">McGlothlin-Street Hall 020</p>
+        <Iframe url="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d50800.845086733236!2d-76.7529222!3d37.2701746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b0897540634a83%3A0xf15dc85741e9370e!2sMcGlothlin%20-%20Street%20Hall!5e0!3m2!1sen!2sus!4v1704157031134!5m2!1sen!2sus"
+        width="800"
+        height="450"
+        id=""
+        className="mb-10"
+        display="block"
+        loading='lazy'
+        referrerpolicy='no-referrer-when-downgrade'
+        position="relative"/>
         <h2 className="font-bold text-xl">Getting here</h2>
         <p>We look forward to welcoming you at William & Mary. Here are some key details to help you plan your trip.</p>
         <h2 className="font-bold text-lg mt-3">🛫 Air</h2>
@@ -82,7 +97,7 @@ export default function Travel(){
         <h2 className="font-bold text-lg mt-3">🚊 Rail</h2>
         <p>Amtrak train service is available to Williamsburg. Rail travel can be especially convenient for travelers from New York, Philadelphia or Washington, D.C.</p>
         <h2 className="font-bold text-lg mt-3">🚘 Parking</h2>
-        <p>Parking information coming soon</p>
+        <p>We will try to obtain daily passes for attendees driving to the venue. More details coming soon.</p>
         {/* <h2 className="font-bold text-lg">🚍 Bus</h2>
         <p>Bus information...</p> */}
         <h2 className="font-bold text-xl mt-10">Accommodation</h2>
