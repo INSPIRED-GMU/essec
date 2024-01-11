@@ -26,6 +26,13 @@ export default function Program () {
                 "tag":"Break-out Session",
             },
             {
+                "time": "10:00",
+                "speaker": "Talank Baral",
+                "affiliation": "George Mason University",
+                "topic": "Optimizing Continuous Development By Detecting and Preventing Unnecessary Content Generation",
+                "tag":"Talk",
+          },
+            {
                 "time": "10:10",
                 "speaker": "Minhyuk Ko",
                 "affiliation": "Virginia Tech",
@@ -113,7 +120,7 @@ export default function Program () {
             "tag":"Break",
           },
           {
-            "time": "2:00",
+            "time": "2:10",
             "topic": "Poster Session",
             "tag":"Poster",
           },
@@ -124,11 +131,18 @@ export default function Program () {
           },
           {
             "time": "4:00",
+            "speaker": "Andrian Marcus",
+            "affiliation": "George Mason University",
+            "topic": "NSF: The Role of NSF in Supporting Research",
+            "tag":"NSF Talk",
+        },
+          {
+            "time": "4:30",
             "topic": "Panel: Challenges in Research and Career",
             "tag":"Panel",
           },
           {
-            "time": "5:00",
+            "time": "5:15",
             "topic": "Planning ESSEC 2025",
             "tag":"Closing",
           }
@@ -151,7 +165,7 @@ export default function Program () {
                 <tbody>
                     {schedule.schedule.map((item, index) => (
                         <tr key={index} className={item.tag=="Break"?"bg-amber-300":item.tag!="Talk"?"bg-blue-200":"border-blue-200"}>
-                            <td className={item.tag!="Talk"?"font-semibold":""}>{item.time}</td>
+                            <td className={item.tag!="Talk"?"font-semibold align-top":"align-top"}>{item.time}</td>
                             <td className={item.tag!="Talk"?"font-semibold":""}>{item.speaker}<br></br><span className='italic'>{item.affiliation}</span></td>
                             <td className={item.tag!="Talk"?"font-bold":"font-medium"}><span className="badge badge-ghost badge-sm font-bold">{item.tag}</span><br></br>{item.topic}</td>
                         </tr>

@@ -86,7 +86,7 @@ export default function Travel(){
         position="relative"/>
         <h2 className="font-bold text-xl">Getting here</h2>
         <p>We look forward to welcoming you at William & Mary. Here are some key details to help you plan your trip.</p>
-        <h2 className="font-bold text-lg mt-3">🛫 Air</h2>
+        <h2 className="font-bold text-lg mt-3">✈️ Air</h2>
         <p>There are three airports convenient to Williamsburg:</p> 
         <ul className="list-disc ml-5">
             <li>Richmond International Airport (RIC)</li>
